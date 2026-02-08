@@ -1,0 +1,11 @@
+user_id,activity,timestamp
+u1,login,2025-01-01T10:00:00
+u2,view_page,2025-01-01T10:05:00
+u1,view_page,2025-01-01T10:10:00
+u3,logout,2025-01-01T10:15:00
+u2,login,2025-01-01T10:20:00
+u2,view_page,2025-01-01T10:20:00
+u2,view_page,2025-01-01T10:20:00   # duplicate row example
+u4,,2025-01-01T10:25:00            # missing activity example
+,login,2025-01-01T10:30:00         # missing user_id example
+u5,login,                          # missing timestamp example
